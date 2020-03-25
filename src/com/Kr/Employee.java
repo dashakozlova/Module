@@ -71,5 +71,12 @@ public class Employee {
     public String toString() {
         return " id= " + getId() + ", name= " + getName() + ", surname= " + getSurname()  + ", salary= " + getSalary() +", manager= {"+getManager()+" } "+" ";
     }
+    public String getNameManager(){
+        if(getManager()!=null)
+        {return getManager().getName()+" "+ getManager().getSurname();}
+        else
+        {return "No manager";}
+    }
 }
+
 

@@ -18,5 +18,6 @@ public class Main {
 
 	 System.out.println(manager4.toString());
 	 System.out.println(employee2.toString());
+	 System.out.println(manager3.getNameManager());
     }
 }
